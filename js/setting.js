@@ -150,7 +150,7 @@ var YZM = {
 	},
 	'video': {
 		'play': function() {
-			$("#link3").text("视频已准备就绪，即将为您播放");
+			$("#link3").text("k8dm.com，看吧动漫为您播放");
 			setTimeout(function() {
 				YZM.dp.play();
 				$("#loading-box").remove();
