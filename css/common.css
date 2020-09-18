@@ -1,0 +1,1000 @@
+
+
+/*éå……ç°¬ç€›æ¤¾ç¶‹*/
+/*éˆâ‚¬æ¿‚æˆ’äº’Arial Blackç¼æ’³ç†¬é”›å²ƒç¹–ç»‰å¶…ç“§æµ£æ’³ç·¢é–«æ°±æ•¤é”›å²€åŠ§éšåº¡î›§é‹æ»ƒåš­éœæ‹Œç¹–ç»‰å¶…ç“§æµ£æ“„ç´ç’‡å­˜æ§‘éŽµå¥ç¬‰é’ï¿½*/
+
+body {
+	/*é‘»è¾¨æžƒç€›æ¤¾ç¶‹æµ¼æ°¬î‡±é‘·ç£‹å«³é‚å›§æ‹°æ¶“î…Ÿæžƒæ¶“å¶…î‡®æ¦»ï¿½*/
+	/*font-family: Arial,"Helvetica Neue",Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, "Arial Black";*/
+
+	/*çšî‚¥î›¦å§¹å‚›æ•¼é¥ç‚°ç°¡v1*/
+	/*v2é¨ï¿½*/
+	/*font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, "Arial Black";*/
+	/*v1é¨ï¿½*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	/*æ¦›æ¨¿î…»ç€›æ¤¾ç¶‹é‡æ‘ã‚½é”›å±¼çµ¾éå ¢æ•¤15é”›å²€åŠ§éšåº¡æ•–é–²å¿“å½‰æ¾¶ï¿½*/
+	font-size: 15px;
+	/*æµ¼æ°¬å¥–éå¶…ç·¢æ¾¶æ°­æ¹éŽ¹ãˆ£î”‘é¨å‹«æ‚“æ¶“â‚¬ç›å²€æ®‘é—‚æ’®æ®§*/
+	/*letter-spacing: 1.0px;*/
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	-webkit-text-size-adjust: none;
+}
+
+.asciifont {
+	font-family: "Helvetica Neue",Helvetica;
+}
+
+@font-face {
+	font-family: 'gamefont';
+	src: url('gamefont.ttf');
+}
+
+
+/*é–¬åž®åŽ¤éŽ°å¿“î˜»é”›å±¾æ¨‰å¯®å¿šî†•ç¼ƒî†¼ç†€éˆî„€å¼¬éï¿½*/
+
+div, span, a, p, img, button, ul, li, table, tr, td, pre, strong, h1, h2, h3, h4, h5, h6, section {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+input, textarea {
+	font-weight: normal;
+	margin: 0px;
+}
+
+table, tr, td, img {
+	border: 0px;
+}
+
+/*??*/
+div {
+	max-height: 999999px;
+}
+
+ul li {
+	list-style:none;
+}
+
+table {
+	border-collapse:collapse;
+	border:none;
+}
+
+
+#root {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#container {
+}
+
+.clear {
+	clear:both;
+}
+
+.block {
+	padding: 4px 4px;
+}
+.blocklr {
+	padding: 0px 4px;
+}
+.blockbt {
+	padding: 4px 0px;
+}
+
+.spaceblock {
+	padding: 6px 6px;
+}
+
+.spaceblock1 {
+	padding: 9px 8px;
+}
+
+.baseblock {
+}
+
+
+
+/*base ==== ==== ==== ==== ==== ==== ==== ==== */
+
+/*é‘³å±¾æ«™é¨å‹®å„—é…ï¿½#606061*/
+/*æ¤¤å •å„´#292929*/
+
+/*é§æ¥„å„—é…ï¿½#202020*/
+/*é§æ¥„å„—é…îˆäº¤å¯°î†¼å°¯é’ï¿½#232323*/
+
+/*ç€›æ„¬æ½¡é‘³å±¾æ«™#282828*/
+
+/*å§ï½†æžƒæµœï¿½#e8e8e9*/
+/*å§ï½†æžƒæ¶“ï¿½#e0e0e0*/
+/*å§ï½†æžƒé†ï¿½#bbbbbb*/
+/*å§ï½†æžƒéç‰ˆæ®«#888888*/
+/*å§ï½†æžƒæ¶“å¬ªåžç»¾ï¿½#bbbbbc*/
+
+/*æ¥‚æ¨¹å¯’#fd9720*/
+/*æˆæ’³å†å¦—ï¿½#212122*/
+/*å¯®é¸¿çšŸ#d0e0f0*/
+
+/*éå›¬î•½#888899*/
+/*éå›©î„·#808081*/
+
+/*æµœî†¿æ‘‘#70c8dd*/
+/*é†æ¥„æ‘‘#60b8cc*/
+/*é’ƒæ¿…ç¬…é’æŽ”åšŽ#4a94a3*/
+/*å¨´å‘®æ®«é’ƒï¿½#3d4f61*/
+/*zima blue #4BBEE3*/
+
+/*æµœî†¾å­©#fe0101*/
+/*é†æ¥ƒå­©#682121*/
+
+/*é§ç‚¬æƒŒéï¿½#757175*/
+
+/*éŽ¸å¤æŒ³æµœï¿½#414142*/
+/*éŽ¸å¤æŒ³é†ï¿½#313132*/
+/*éŽ¸å¤æŒ³æ¥‚æ¨¹å¯’#757175*/
+
+/*ç€µè‰°åŸ…éï¿½#303030*/
+/*æ¾¶Ñ†ç«Ÿå¦—å—™ä¼†#303030*/
+
+/*æµœî†¿ç«Ÿå¦—ï¿½#505051*/
+/*é†æ¥„ç«Ÿå¦—ï¿½#404041*/
+
+/*ç’‡å‹®î†‘#b8b8e0*/
+
+/*ç»¾îˆœæ«§*/
+
+
+/*é¦å—šî—2*/
+/*é—å©‡â‚¬å¿šå£Š(0,0,0,0.65)*/
+
+/*color*/
+
+body {
+	color: #e8e8e9;
+	background-color: #606061;
+}
+
+/*é–¬åž®åŽ¤éŽ°å¿“î˜»é”›å±¾æ¨‰å¯®å¿šî†•ç¼ƒî†¼ç†€éˆî„€å¼¬éï¿½*/
+div, span, a, p, img, button, ul, li, table, tr, td, input, textarea, pre, strong, h1, h2, h3, h4, h5, h6 {
+	color: #e8e8e9;
+	background-color: transparent;
+}
+
+input, textarea {
+	background: transparent;
+	border-width: 1px;
+	border-color: #404041;
+	background-color: #212122;
+}
+
+/*ç€›æ¤¾ç¶‹*/
+/*å§ï½†æžƒé†å‚›æ¤‚ç€¹ï¿½15*/
+/*é¥å“„ç•¾é¨å‹«ç“§æµ£æ’²äº’æ¶“ï¿½*/
+/*nav éå›¬î•½ é”ã„¦æžéšå¶…ç“§*/
+
+
+/*misc ==== ==== ==== ==== ==== ==== ==== ==== */
+
+li {
+	display: inline-block;
+}
+
+
+/*root ==== ==== ==== ==== ==== ==== ==== ==== */
+#root {
+	-moz-box-shadow:0px 1px 1px #202020;
+	-webkit-box-shadow:0px 1px 6px #202020;
+	box-shadow:0px 1px 1px #202020;
+}
+
+/*top ==== ==== ==== ==== ==== ==== ==== ==== */
+
+#top {
+	box-sizing: border-box;
+	height: 160px;
+	padding: 10px 8px;
+	background-color: #292929;
+}
+
+#logo {
+	margin-top: 22px;
+	margin-left: 8px;
+	float: left;
+}
+
+#logo a {
+	width: 215px;
+    height: 85px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    overflow: hidden;
+    line-height: 300px;
+}
+
+#pa {
+	float: left;
+	margin-top: 36px;
+}
+.patitle {
+	color: #d0e0f0;
+	margin: 2px 0px;
+}
+.patext {
+	color: #e0e0e0;
+	font-size: 0.9em;
+}
+
+/*nav ==== ==== ==== ==== ==== ==== ==== ==== */
+
+#nav {
+	height: 56px;
+	background-color: #292929;
+}
+
+.nav_button {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	padding: 0px 14px;
+	font-size: 1.2em;
+	text-decoration: none;
+	margin-right: -4px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.nav_button:hover, .nav_button:active {
+	background-color: #303030;
+}
+
+.nav_button_current {
+	background-color: #303030;
+}
+
+.search_form {
+	box-sizing: border-box;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #404041;
+	border-radius: 1px;
+	vertical-align: middle;
+	background-color: #212122;
+}
+.search_input {
+	font-size: 1.0em;
+	border: none;
+	box-sizing: border-box;
+	height: 38px;
+	line-height: 38px;
+	width: 160px;
+	padding: 0px 6px;
+	background-color: transparent;
+	outline:none;
+}
+.search_input_ex {
+	width: 200px;
+}
+
+.search_submit {
+	float: right;
+	box-sizing: border-box;
+	width: 32px;
+	height: 38px;
+	background: url("../img/search.png") no-repeat 6px 9px;
+	border: none;
+	background-size: 20px 20px;
+	text-align: center;
+}
+
+#top_search_from {
+	float: right;
+	margin: 8px 8px;
+}
+
+.sublink {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	padding: 0px 6px;
+	font-size: 1.2em;
+	color: #d0e0f0;
+	margin-right: 14px;
+}
+.sublink_float {
+	float: right;
+}
+
+
+/*foot ==== ==== ==== ==== ==== ==== ==== ==== */
+
+footer {
+	/*height: 48px;*/
+	background-color: #303030;
+}
+
+#footer_container {
+	padding: 24px 12px;
+	margin: auto;
+}
+
+
+/*content ==== ==== ==== ==== ==== ==== ==== ==== */
+#container {
+	border: 4px solid #303030;
+	background-color: #202020;
+}
+
+
+/*baseblock ==== ==== ==== ==== ==== ==== ==== ==== */
+.baseblock .blocktitle {
+	padding: 6px 8px;
+	color: #888899;
+	font-size: 1.15em;
+}
+.baseblock .blocktitle * {
+	color: #888899;
+}
+/*å¯°å æ½™é¨å‹«å•“å¨‰ï¿½*/
+.baseblock .blocktitle a {
+	color: #e8e8e9;
+	text-decoration-color: #bbbbbc;
+}
+
+.baseblock .blockcontent {
+	padding: 10px 8px;
+}
+
+.baseblock .line {
+	border-top: 1px dashed #404041;
+	margin: 0px 8px;
+}
+
+.baseblock2 {
+	border: 1px solid #404041;
+	color: #e8e8e9;
+	border-radius: 1px;
+}
+.baseblock2 .blocktitle {
+	padding: 6px 8px;
+	color: #888899;
+	background-color: #232323;
+	border-bottom: 1px solid #404041;
+}
+/*å¯°å æ½™é¨å‹«å•“å¨‰ï¿½*/
+/*.baseblock2 .blocktitle a {*/
+	/*color: #888899;*/
+/*}*/
+.baseblock2 .blockline {
+	border-top: 1px dashed #404041;
+	margin: 0px 0px;
+	margin-bottom:6px;
+}
+.blockline1 {
+	border-bottom: 1px solid #404041;
+	margin-top:8px;
+	margin-bottom:6px;
+}
+.baseblock2 .blockcontent {
+	padding: 8px 8px;
+	color: #e8e8e9;
+}
+
+/*align*/
+.ul_li_a2 :nth-child(2n) {
+	margin-right: 0px;
+}
+.ul_li_a4 :nth-child(4n) {
+	margin-right: 0px;
+}
+.ul_li_a5 :nth-child(5n) {
+	margin-right: 0px;
+}
+.ul_li_a6 :nth-child(6n) {
+	margin-right: 0px;
+}
+
+.x_x_a5 :nth-child(5n) {
+	margin-right: 0px;
+}
+.x_x_a7 :nth-child(7n) {
+	margin-right: 0px;
+}
+.x_x_a8 :nth-child(8n) {
+	margin-right: 0px;
+}
+.x_x_a9 :nth-child(9n) {
+	margin-right: 0px;
+}
+
+/*icon ==== ==== ==== ==== ==== ==== ==== ==== */
+.anime_icon1 {
+	width: 120px;
+	margin-right: 5px;
+	margin-bottom: 18px;
+	position: relative;
+}
+/*.anime_icon1 .anime_icon1_img {
+	width: 120px;
+	height: 165px;
+	border-radius: 1px;
+}*/
+.anime_icon1 .anime_icon1_name1 {
+	position: absolute;
+
+	right: 2px;
+	bottom: 29px;
+
+	font-weight: normal;
+	font-size: 0.9em;
+	vertical-align: middle;
+	text-align: right;
+
+	background-color: rgba(0,0,0,0.65);
+	color: #ffffff;
+	/*border: 0.5px solid rgba(0.1,0.1,0.1,0.5);*/
+	padding: 1px 5px;
+	
+	border-radius: 2.5px;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.anime_icon1 .anime_icon1_name {
+/*	width: 118px;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.0em;
+	margin-top: 0px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 14.5px;
+	/*color: #ffffff;*/
+}
+
+.anime_icon1 .anime_icon1_name_a {
+	text-decoration-color: #bbbbbc;
+}
+
+/*button ==== ==== ==== ==== ==== ==== ==== ==== */
+.nbutton {
+	border-radius: 2px;
+	font-size: 0.9em;
+}
+
+.nbutton:hover, .nbutton:active {
+	background-color: #313132;
+}
+
+.nbutton_current {
+	background-color: #313132;
+}
+
+
+.nbutton2 {
+	background-color: #414142;
+	border: none;
+	font-size: 1.1em;
+	border-radius: 2px;
+	text-decoration: none;
+	padding: 8px;
+	display: inline-block;
+}
+
+.nbutton2:hover, .nbutton:active {
+	background-color: #757175;
+}
+
+
+.pbutton {
+	box-sizing: border-box;
+	display: inline-block;
+	/*font-size: 1.1em;*/
+	line-height: 24px;
+	min-width: 40px;
+	height: 32px;
+	padding: 4px 8px;
+	text-align: center;
+	text-align-last: center;
+	vertical-align: middle;
+	margin: 5px;
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 1px;
+	color: #e8e8e9;
+}
+
+.pbutton {
+	border: 1px solid #505051;
+}
+
+.pbutton_current {
+	background-color: #313132;
+}
+.pbutton_current:hover, .pbutton_current:active {
+	background-color: #313132;
+}
+
+
+.pbutton_select {
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0px;
+}
+
+
+.anime_icon2 {
+	width: 150px;
+	margin-right: 14px;
+	margin-bottom: 24px;
+	position: relative;
+}
+.anime_icon2 .anime_icon2_img {
+	width: 150px;
+	height: 208px;
+	border-radius: 1px;
+}
+.anime_icon2 .anime_icon1_name1 {
+	position: absolute;
+
+	right: 3px;
+	bottom: 30px;
+
+	font-weight: normal;
+	font-size: 1em;
+	vertical-align: middle;
+	
+	text-align: right;
+
+	background-color: rgba(0,0,0,0.65);
+	color: #ffffff;
+	/*border: 0.5px solid rgba(0.1,0.1,0.1,0.5);*/
+	padding: 1px 5px;
+	
+	border-radius: 2.5px;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.anime_icon2 .anime_icon2_name {
+	width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.1em;
+	margin-top: 0px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 14.5px;
+	/*font-weight: bold;*/
+	/*color: #ffffff;*/
+	text-decoration-color: #bbbbbc;
+}
+
+.hrspace {
+	margin-top: 6px;
+	margin-bottom: 8px;
+	height: 0px;
+	border: none;
+	border-bottom: 1px solid #404041;
+	width: 99%;
+}
+
+.cell {
+	padding: 12px 8px;
+}
+
+.cell_poster {
+	width: 150px;
+	height: 208px;
+	display: inline-block;
+	position: relative;
+}
+.cell_poster img {
+	border-radius: 1px;
+
+}
+.cell_poster .newname {
+
+	position: absolute;
+
+	right: 3px;
+	bottom: 3px;
+
+	font-weight: normal;
+	font-size: 1em;
+	vertical-align: middle;
+	
+	text-align: right;
+
+	background-color: rgba(0,0,0,0.65);
+	color: #ffffff;
+	/*border: 0.5px solid rgba(0.1,0.1,0.1,0.5);*/
+	padding: 1px 5px;
+	
+	border-radius: 2.5px;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cell_imform {
+	width: 828px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 8px;
+}
+
+.cell_imform_name {
+	margin: 0px 0px 10px 0px;
+	font-size: 1.15em;
+	display: inline-block;
+	text-decoration: none;
+	color: #d0e0f0;
+}
+
+.cell_imform_kvs {
+
+}
+.cell_imform_kv {
+	min-width: 270px;
+	margin: 3px 0px;
+	display: inline-block;
+}
+.cell_imform_tag {
+	color: #808081;
+}
+
+.cell_imform_value {
+	color: #e0e0e0;
+}
+
+.cell_imform_kv_desc {
+	width: 100%;
+	/*override cell_imform_kv*/
+	display: block;
+}
+.cell_imform_kv_desc .cell_imform_tag {
+	float: left;
+	margin-right: -57px;
+}
+.cell_imform_desc {
+	color: #e0e0e0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-indent: 57px; 
+	margin-bottom: 12px;
+}
+
+.cell_imform_btns {
+	margin-top: 16px;
+}
+
+.cell_res_button {
+	margin-right: 4px;	
+}
+
+#result_count {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #d0e0f0;
+}
+#result_count1 {
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #fe0101;
+}
+
+.comment {
+	font-size: 0.9em;
+}
+.comment {
+	position: relative;
+}
+
+li.comment {
+	display: block;
+}
+
+#comment_user {
+	color: #bbbbbb;
+}
+#comment_content {
+	width: 100%;
+	height: 4em;
+	margin-bottom: 8px;
+}
+
+#comment_list {
+}
+
+.commentcell_content {
+	line-height: 1.5em;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.commentcell_content div {
+	color: #b8b8e0;
+	word-wrap: break-word;
+}
+
+.commentcell_content pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;  
+	/*å§£æ—€î„œç”¯å“¥æ®‘çå¿¥ç´æ¿‚å›¨â‚¬ï¿½*/
+	/*font-size: 1.1em;*/
+	/*color: #e0e0e0;*/
+	color: #b8b8e0;
+}
+
+.commentcell_animename, .commentcell_animename * {
+	line-height: 1.5em;
+	color: #bbbbbb;
+}
+
+.commentcell_user {
+	line-height: 1.5em;
+	color: #a0a0a0;
+}
+
+.commentcell_time {
+	color: grey!important;
+}
+
+.comment_imform_tag {
+	color: #808081;
+}
+
+.comment_submit {
+	float: right;
+}
+
+.comment_delete {
+	float: right;
+}
+.comment_delete a {
+	color: grey;
+}
+
+
+.blockdiff {
+	
+}
+.blockdiff2 {
+	background-color: #303030;
+}
+
+.hrspace2 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	height: 0px;
+	border: none;
+	border-top: 1px dashed #404041;
+}
+
+
+.res_links {
+	margin-right: 20px;
+	display: inline-block;
+	padding: 2px 0px;
+}
+
+.res_links_a {
+	color: #60b8cc;
+	text-decoration-color: #4a94a3;
+}
+
+.loginout {
+	float: right;
+}
+.loginout_btn2 {
+	/*color: #d04040;*/
+}
+
+.loginout a {
+}
+
+.highlight {
+	color: #d0e0f0;
+}
+
+#to_login_tips {
+	font-size: 120%;
+	/*font-weight: bold;*/
+	color: red; 
+	margin-left: 4px; 
+	margin-top: 4px; 
+	display: block;
+}
+#to_login_tips1 {
+	font-size: 120%;
+	/*font-weight: bold;*/
+	color: red; 
+	margin-left: 4px; 
+	margin-top: 4px; 
+	display: block;
+}
+
+#to_wail_tips {
+	font-size: 120%;
+	/*font-weight: bold;*/
+	color: red; 
+	margin-left: 4px; 
+	margin-top: 4px; 
+	display: block;
+}
+
+
+.account_form {
+}
+.account_form label {
+	font-size: 120%;
+	display: inline-block;
+	min-width: 80px;
+}
+.account_form input {
+	font-size: 120%;
+	padding: 4px;
+	margin: 4px 4px 8px 0px;
+}
+.account_form button {
+	font-size: 120%;
+	padding: 4px;
+	margin: 8px 4px 8px 0px;
+}
+.account_form .helptext {
+	font-size: 0.8em;
+	color: #757175;
+}
+.account_form ul.errorlist {
+	color: #fe0101;
+}
+.account_form ul {
+	color: #757175;
+}
+.account_form ul li {
+	color: #fe0101;
+}
+
+
+
+#a_to_login {
+	/*display: inline-block;*/
+	/*font-size: 120%;*/
+	/*padding: 4px;*/
+	/*margin: 8px 4px 8px 48px;*/
+}
+#a_to_reg {
+	display: inline-block;
+	/*font-size: 120%;*/
+	padding: 4px;
+	margin: 8px 4px 8px 48px;
+}
+
+#id_username {
+}
+
+#id_username {
+}
+
+.svg_title {
+	padding-left: 1.4em;
+}
+
+.svg_title_user {
+	/*background-image: url(../img/user.svg); æ¶“å¶‡ç…¡éŽ¬åºç®žæ©æ¬Žé‡œç¼‚æ’³ç“¨æ¶“å¶„ç°¡*/
+	
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 1.4em 1.4em;
+}
+
+.commentspage {
+	display: inline-block;
+}
+
+.favbtn {
+	float: right;
+	line-height: 1.2em;
+}
+
+.hidden {
+	display: none;
+}
+.safe {
+	display: none;
+}
+
+.flink {
+	color: #bbbbbb;
+}
+
+
+.comment_delete_btn {
+	position: absolute;
+	right: 0px;
+	bottom: 30px;
+}
+
+
+.link_text{
+	padding: 10px 0;
+}
+.link_text li{
+	margin-right: 10px;
+}
+
+@media only screen and (min-width:0em) and (max-width:40em) {
+	#root {
+		width:100%;
+	}
+	#nav {
+		height: 40px;
+	}
+	.nav_button {
+		padding: 0px 2%;
+		font-size: 1.1em;
+		height: 40px;
+		line-height: 40px;
+	}	
+	.nav_button:nth-child(1) {
+		margin-left: 5px;
+	}
+	.nav_button:nth-child(n+6) {
+		display: none;
+	}
+	#top_search_from {
+		width: 96%;
+		float: left;
+		margin-top: 10px;
+	}
+	.search_input {
+		width: 80%;
+	}
+	.search_submit {
+		width: 36px;
+	}
+
+	.anime_icon2 {
+		width: 31%;
+		margin-right: 1%;
+		margin-bottom: 2%;
+		position: relative;
+	}
+	.anime_icon2 .anime_icon2_img {
+		width: 100%;
+		height: auto;
+		border-radius: 1px;
+	}
+	.anime_icon2 .anime_icon2_name {
+		width: auto;
+		max-width: 84%;
+	}
+	.anime_icon1 .anime_icon1_name1, .anime_icon2 .anime_icon1_name1 {
+		width: auto;
+		max-width: 84%;
+	}
+	#new_tip1{
+		margin-top: 55px!important;
+	}
+	.vip {
+		display: none;
+	}
+}
+.pages{    background-color: #212122;}
