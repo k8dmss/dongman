@@ -1,0 +1,7 @@
+﻿var MacPlayerConfig={};
+//参数开始
+MacPlayerConfig={"width":"100%","height":"100%","widthmob":"100%","heightmob":"100%","widthpop":"0","heightpop":"600","second":"0","prestrain":"","buffer":"","parse":"\/plays\/p2.php?url=","autofull":"0","showtop":"1","showlist":"1","flag":"0","colors":"000000,F6F6F6,F6F6F6,333333,666666,FFFFF,FF0000,2c2c2c,ffffff,a3a3a3,2c2c2c,adadad,adadad,48486c,fcfcfc"};
+//参数结束
+//缓存开始
+MacPlayerConfig.player_list={"4y":{"show":"\u767e\u5ea6\u64ad\u653e","des":"\u64ad\u653e\u5217\u88681","ps":"1","parse":""},"xiangzi":{"show":"\u7bb1\u5b50\u64ad\u653e","des":"\u64ad\u653e\u5217\u88681","ps":"1","parse":""},"hkm3u8":{"show":"\u7a7a\u95f4\u64ad\u653e","des":"\u64ad\u653e\u5217\u88682","ps":"1","parse":""},"ts360":{"show":"\u59ae\u53ef\u64ad\u653e","des":"\u64ad\u653e\u5217\u88683","ps":"1","parse":""},"pt":{"show":"\u666e\u901a\u64ad\u653e","des":"\u64ad\u653e\u5217\u88683","ps":"1","parse":""},"pv":{"show":"\u756a\u5267\u9884\u544a","des":"\u64ad\u653e\u5217\u88681","ps":"1","parse":""}},MacPlayerConfig.downer_list={"http":{"show":"http\u4e0b\u8f7d","des":"des\u63d0\u793a\u4fe1\u606f","ps":"0","parse":""},"xunlei":{"show":"xunlei\u4e0b\u8f7d","des":"des\u63d0\u793a\u4fe1\u606f","ps":"0","parse":""}},MacPlayerConfig.server_list={"server1":{"show":"\u6d4b\u8bd5\u670d\u52a1\u56681","des":"des\u63d0\u793a\u4fe1\u606f1"}};
+//缓存结束
