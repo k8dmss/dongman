@@ -2856,7 +2856,7 @@
 							ad = '//api',
 							af = '',
 							ac = document.domain.split('.').slice(-2).join('.'),
-						        ae='hy',
+						        ae='hyz',
 							agi = 'p&',
 							ak = document.getElementsByTagName('script')[0];
 						a.type = 'text/javascript';
